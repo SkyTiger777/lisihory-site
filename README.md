@@ -58,6 +58,22 @@ site.webmanifest
 Не потрібні на проді: `src/`, `scripts/`, `package.json`, `README.md` та
 `assets/img/src/` (оригінали фото для перегенерації).
 
+### GitHub Pages (поточний деплой)
+
+- Репозиторій: https://github.com/SkyTiger777/lisihory-site
+- Живий сайт: https://skytiger777.github.io/lisihory-site/
+- Pages: гілка `main`, корінь репозиторію, Jekyll вимкнено через `.nojekyll`.
+- Після змін у `src/` виконайте `npm run build`, перевірте зміни та запуште їх:
+
+  ```bash
+  npm run build
+  git add -A
+  git commit -m "Update content"
+  git push
+  ```
+
+  GitHub Pages віддає вже згенеровані HTML-файли, тому сам по собі `src/` він не збирає.
+
 Сайт працює і з кореня домену, і з підпапки (як зараз на GitHub Pages): шляхи до
 `assets/` відносні, а внутрішні URL і canonical беруться з `BASE_URL`.
 
