@@ -1,0 +1,31 @@
+{
+  "name": "Маєток «Ліс і Гори» — Поляниця, Буковель",
+  "short_name": "Ліс і Гори",
+  "description": "Чотири дерев'яні котеджі в Поляниці за 5 км від Буковеля: басейн із підігрівом, лазня, гори та ліс.",
+  "lang": "uk",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf8f2",
+  "theme_color": "#10130f",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

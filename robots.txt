@@ -1,0 +1,6 @@
+# Маєток «Ліс і Гори» — https://skytiger777.github.io/lisihory-site
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+Sitemap: https://skytiger777.github.io/lisihory-site/sitemap.xml
